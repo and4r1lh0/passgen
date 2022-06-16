@@ -24,5 +24,6 @@ def generate_pass(len):
     return password
 
 len=15 # длина пароля
-for el in range(100):
+count=10 # количество паролей
+for el in range(count):
     print(generate_pass(len))
